@@ -1,9 +1,7 @@
 using AspNetCore.Grpc.LocalizerStore.Rpc;
 using AspNetCore.Grpc.LocalizerStore.Service;
 using I18nWebApi.Exceptions;
-using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<ApiBehaviorOptions>(options =>

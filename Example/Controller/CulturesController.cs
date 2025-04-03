@@ -86,5 +86,25 @@ namespace I18nWebApi.Controller
             });
 
         }
+        [HttpGet("ImportRsource")]
+        public async Task<IActionResult> ImportRsource()
+        {
+            try
+            {
+                var res = await localizerService.ImportRsource(GetType());
+                await localizerStore.ReloadAsync();
+                return new JsonResult(res);
+            }
+            catch (Exception ex)
+            {
+
+                return new JsonResult(new
+                {
+                    code = 1,
+                    msg = ex.Message
+                });
+            }
+         
+        }
     }
 }
