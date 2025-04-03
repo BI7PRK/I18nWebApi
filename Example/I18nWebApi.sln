@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I18nWebApi", "I18nWebApi.csproj", "{202B7B8F-872C-4A4C-9379-5C7E1C3D1803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Grpc.LocalizerStore", "..\Modules\Grpc.LocalizerStore\AspNetCore.Grpc.LocalizerStore.csproj", "{F8F6648F-8D54-4B83-AF1E-9F7B7814B3E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{202B7B8F-872C-4A4C-9379-5C7E1C3D1803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202B7B8F-872C-4A4C-9379-5C7E1C3D1803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202B7B8F-872C-4A4C-9379-5C7E1C3D1803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202B7B8F-872C-4A4C-9379-5C7E1C3D1803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F6648F-8D54-4B83-AF1E-9F7B7814B3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F6648F-8D54-4B83-AF1E-9F7B7814B3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F6648F-8D54-4B83-AF1E-9F7B7814B3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F6648F-8D54-4B83-AF1E-9F7B7814B3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+[submodule "Modules/Grpc.LocalizerStore"]
+	path = Modules/Grpc.LocalizerStore
+	url = https://github.com/BI7PRK/Grpc.LocalizerStore.git
