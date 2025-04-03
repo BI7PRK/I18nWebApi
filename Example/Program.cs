@@ -25,18 +25,7 @@ builder.Services.AddStringLocalizerStore();
 
 var app = builder.Build();
 
-var supportedCultures = new[]
-    {
-        new CultureInfo("en-US"),
-        new CultureInfo("zh-CN"),
-        // 添加更多你希望支持的文化信息
-    };
-app.UseRequestLocalization(new RequestLocalizationOptions
-{
-    DefaultRequestCulture = new RequestCulture("en-US"),
-    SupportedCultures = supportedCultures,
-    SupportedUICultures = supportedCultures
-});
+app.UsRequestLocalizatioStore();
 
 app.UseRouting();
 app.MapControllers();
