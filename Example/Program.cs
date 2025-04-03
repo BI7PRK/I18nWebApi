@@ -25,7 +25,7 @@ builder.Services.AddStringLocalizerStore();
 
 var app = builder.Build();
 
-app.UsRequestLocalizatioStore();
+app.UseRequestLocalizatioStore();
 
 app.UseRouting();
 app.MapControllers();
